@@ -1,0 +1,30 @@
+{
+  "name": "microservices-basics-ui-angular",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "1.4.9",
+    "bootstrap": "3.2.0",
+    "angular-animate": "1.4.9",
+    "angular-cookies": "1.4.9",
+    "angular-resource": "1.4.9",
+    "angular-route": "1.4.9",
+    "angular-sanitize": "1.4.9",
+    "angular-touch": "1.4.9",
+    "satellizer": "^0.15.5",
+    "AngularJS-Toaster": "angularjs-toaster#^2.2.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.4.9"
+  },
+  "appPath": "app",
+  "moduleName": "microservicesBasicsUiAngularApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
